@@ -28,7 +28,10 @@ Licenciado bajo la [licencia MIT](https://opensource.org/licenses/MIT).
 ## Herramientas
 
 [Pygame](https://www.pygame.org/news)
+<br>
 [Photoshop (principalmente para los sprites)](https://www.adobe.com/products/photoshop.html)
+
+## License
 
 Licenciado bajo la [licencia MIT](https://opensource.org/licenses/MIT).
 
