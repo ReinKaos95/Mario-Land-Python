@@ -19,8 +19,11 @@ Licenciado bajo la [licencia MIT](https://opensource.org/licenses/MIT).
 ## Recursos
 
 [Sprites](https://www.spriters-resource.com/game_boy_gbc/sml/)
+<br>
 [Audio](https://www.sounds-resource.com/game_boy_gbc/supermarioland/sound/42550/)
+<br>
 [Musica](https://downloads.khinsider.com/game-soundtracks/album/super-mario-land-gameboy-rip)
+<br>
 
 ## Herramientas
 
