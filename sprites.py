@@ -1,9 +1,11 @@
 import pygame
+from config import *
+import os
 
-class Char(sprites.Sprite):
+class Char(pygame.sprite.Sprite):
     
     def __init__(self):
-        sprites.Sprite.__init__(self)
+        pygame.sprite.Sprite.__init__(self)
         
         self.spriteSheet = pygame.image.load("resources/sprites/Main/Mario.png").convert_alpha()
         self.image = pygame.transform.scale(self.spriteSheet.subsurface(0,0,200,420),(100,200))
