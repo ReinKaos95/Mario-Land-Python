@@ -6,7 +6,7 @@
 
 Super Mario Land es un videojuego de plataformas de desplazamiento lateral de 1989 desarrollado y publicado por Nintendo como un juego de lanzamiento para su consola de juegos portátil Game Boy.
 
-Es el primer juego de plataformas de Mario que se lanzó para una consola portátil, fue producido por el creador del primer Gameboy, Gunpei Yokoi.
+Es el primer juego de plataformas de Mario que se lanzó para una consola portátil, fue producido por el creador del primer Gameboy, Gunpei Yokoi (1941 - 1997).
 
 ## License
 
