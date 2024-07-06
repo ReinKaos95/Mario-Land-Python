@@ -2,7 +2,7 @@ import pygame
 import sys
 from config import *
 from menu import *
-from mario import *
+from sprites import *
 """
 #from sprites import Char
 
@@ -33,7 +33,7 @@ class Game():
         
     def newGame(self):
         self.menu = Menu(self)
-        self.mario = Mario(self)
+        self.sprites = Char(self)
         
     def update(self):
         pygame.display.flip()
