@@ -2,7 +2,7 @@ import pygame
 from config import *
 
 class Menu:
-    def __init__(self, game):
+    def __init__(self):
         self.menu = menu
         self.screen = screen
         self.getMenu()

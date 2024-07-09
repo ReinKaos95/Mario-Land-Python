@@ -2,7 +2,7 @@ import pygame
 import sys
 from config import *
 from menu import *
-from sprites import *
+#from sprites import *
 
 
 class Game:
@@ -17,7 +17,7 @@ class Game:
         self.sprites = Char(self)
         
     def update(self):
-        self.menu.update()
+        #self.menu.update()
         self.delta_time = self.clock.tick(FPS)
         pygame.display.update()
         
