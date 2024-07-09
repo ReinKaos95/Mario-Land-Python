@@ -1,5 +1,5 @@
 #Main Config
-RES = WIDTH, HEIGHT = 480, 320
+RES = WIDTH, HEIGHT = 160, 144
 TITLE = "Super Mario Land"
 FPS = 0
 PLAYER_SPEED = 0.004

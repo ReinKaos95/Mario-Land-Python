@@ -3,47 +3,31 @@ import sys
 from config import *
 from menu import *
 from sprites import *
-"""
-#from sprites import Char
 
 
-pygame.init()
-
-
-pygame.display.set_mode(RES)
-pygame.display.set_caption(TITLE)
-menu = menu()
-
-#mario = Char()
-
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.quit()
-    
-    pygame.display.update()
-    """
-
-class Game():
+class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode(RES)
         self.title = pygame.display.set_caption(TITLE)
+        self.clock = pygame.time.Clock()
         
     def newGame(self):
         self.menu = Menu(self)
         self.sprites = Char(self)
         
     def update(self):
-        pygame.display.flip()
+        self.menu.update()
+        self.delta_time = self.clock.tick(FPS)
+        pygame.display.update()
+        
         
         
     def events(self):
         for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    pygame.quit()
-                    sys.quit()
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.quit()
         
     def Run(self):
         while True:
