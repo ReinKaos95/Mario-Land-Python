@@ -2,6 +2,7 @@ import pygame
 import sys
 from config import *
 from menu import *
+from event import *
 #from sprites import *
 
 
